@@ -1,20 +1,32 @@
 {
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0",
-    "imperial-node": "^1.4.1",
-    "mongoose": "^5.11.19"
-  },
   "name": "IMPERIAL-bot",
   "version": "2.0.0",
-  "description": "IMPERIAL discord bot",
+  "description": "A hastebin alternative but with user experience in mind with much more features, as a Discord bot!",
   "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "devStart": "nodemon ./src/index.ts"
+  },
   "repository": "https://github.com/imperialbin/IMPERIAL-bot.git",
+  "keywords": [
+    "devlooskie",
+    "imperial",
+    "imperialbin",
+    "imperialb.in",
+    "imperialbin.com"
+  ],
   "author": "devlooskie <hello@looskie.com>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.21.0",
     "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "imperial-node": "^1.4.1",
+    "mongoose": "^5.11.19"
   }
 }
